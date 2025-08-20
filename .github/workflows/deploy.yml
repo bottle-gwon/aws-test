@@ -26,6 +26,7 @@ jobs:
           echo $GITHUB_REPOSITORY
           echo $GITHUB_SHA
 
+      # settings -> Secrets and variables -> Actions -> new repository secret
       - name: Github Actions Secret 변수 사용해보기
         run: |
           echo ${{ secrets.MY_NAME }}
